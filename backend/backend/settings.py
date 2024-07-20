@@ -1,3 +1,5 @@
+"""Settings for backend."""
+
 import os
 from pathlib import Path
 
