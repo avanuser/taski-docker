@@ -25,4 +25,4 @@ COPY . .
 
        # При старте контейнера запустить сервер разработки.
        # CMD ["python", "manage.py", "runserver", "0:8000"]    # если запускаем тестовый сервер разработки
-CMD ["gunicorn", "--bind", "0.0.0.0:8000", "backend.wsgi"]     # если запускаем боевой gunicorn
+# CMD ["gunicorn", "--bind", "0.0.0.0:8000", "backend.wsgi"]     # если запускаем боевой gunicorn
